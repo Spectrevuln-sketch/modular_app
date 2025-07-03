@@ -1,0 +1,97 @@
+{% extends "base.html" %} {% block content %}
+<div class="container">
+  <h1>Product Management</h1>
+
+  {% if perms.product_module.add_product %}
+  <a
+    href="{% url 'product_module:product-create' %}"
+    class="btn btn-primary mb-3"
+  >
+    Add New Product
+  </a>
+  {% endif %}
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Barcode</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for product in products %}
+      <tr>
+        <td>{{ product.name }}</td>
+        <td>{{ product.barcode }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.stock }}</td>
+        <td>
+          {% if perms.product_module.view_product %}
+          <a href="#" class="btn btn-sm btn-info">View</a>
+          {% endif %} {% if perms.product_module.change_product %}
+          <a
+            href="{% url 'product_module:product-update' product.pk %}"
+            class="btn btn-sm btn-warning"
+            >Edit</a
+          >
+          {% endif %}{% if perms.product_module.delete_product %}
+          <button
+            type="button"
+            class="btn btn-sm btn-danger delete-btn"
+            data-url="{% url 'product_module:product-delete' product.pk %}"
+            data-name="{{ product.name }}"
+          >
+            Delete
+          </button>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %} {% block extra_js %}
+<script>
+  $(function () {
+    $(document).on("click", ".delete-btn", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const btn = $(this);
+      const deleteUrl = btn.data("url");
+      const name = btn.data("name");
+      const listUrl = "{% url 'product_module:product-list' %}";
+
+      console.log("▶ deleteUrl:", deleteUrl);
+      if (!deleteUrl) {
+        return (window.location.href = listUrl);
+      }
+
+      if (!confirm(`Are you sure to delete this data? "${name}"`)) {
+        return;
+      }
+
+      $.ajax({
+        url: deleteUrl,
+        type: "POST",
+        data: { csrfmiddlewaretoken: "{{ csrf_token }}" },
+        headers: { "X-Requested-With": "XMLHttpRequest" },
+      })
+        .done((resp) => {
+          if (resp.success) {
+            btn.closest("tr").fadeOut(300, () => btn.closest("tr").remove());
+          } else {
+            alert("Delete failed: " + resp.error);
+          }
+        })
+        .fail((xhr) => {
+          alert("Error deleting product: " + xhr.statusText);
+        });
+    });
+  });
+</script>
+
+{% endblock %}

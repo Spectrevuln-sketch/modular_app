@@ -1,0 +1,124 @@
+{% extends "base.html" %} {% block content %}
+<div class="container mt-4">
+  <div class="card border-0 shadow">
+    <div class="card-header bg-white border-0 py-3">
+      <h2 class="mb-0 fw-bold">
+        {% if object %}Update Product{% else %}Create New Product{% endif %}
+      </h2>
+    </div>
+
+    <div class="card-body pt-4">
+      <form method="post" class="needs-validation" novalidate>
+        {% csrf_token %}
+
+        <!-- Display form errors at top -->
+        {% if form.non_field_errors %}
+        <div class="alert alert-danger">
+          <strong>Form Errors:</strong>
+          <ul class="mb-0">
+            {% for error in form.non_field_errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        <!-- Product Name -->
+        <div class="form-floating mb-4">
+          {{ form.name }}
+          <label for="{{ form.name.id_for_label }}">Product Name</label>
+          <div class="invalid-feedback">
+            {% for error in form.name.errors %} {{ error }} {% endfor %}
+          </div>
+        </div>
+
+        <!-- Barcode -->
+        <div class="form-floating mb-4">
+          {{ form.barcode }}
+          <label for="{{ form.barcode.id_for_label }}">Barcode</label>
+          <div class="invalid-feedback">
+            {% for error in form.barcode.errors %} {{ error }} {% endfor %}
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Price -->
+          <div class="col-md-6 mb-4">
+            <div class="input-group">
+              <span class="input-group-text">$</span>
+              <div class="form-floating">
+                {{ form.price }}
+                <label for="{{ form.price.id_for_label }}">Price</label>
+              </div>
+            </div>
+            <div class="invalid-feedback">
+              {% for error in form.price.errors %} {{ error }} {% endfor %}
+            </div>
+          </div>
+
+          <!-- Stock -->
+          <div class="col-md-6 mb-4">
+            <div class="form-floating">
+              {{ form.stock }}
+              <label for="{{ form.stock.id_for_label }}">Stock Quantity</label>
+            </div>
+            <div class="invalid-feedback">
+              {% for error in form.stock.errors %} {{ error }} {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-end mt-4 pt-3 border-top">
+          <a
+            href="{% url 'product_module:product-list' %}"
+            class="btn btn-outline-secondary me-3 px-4"
+          >
+            Cancel
+          </a>
+          <button type="submit" class="btn btn-primary px-4">
+            {% if object %}Update Product{% else %}Create Product{% endif %}
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Ensure inputs have proper height */
+  .form-floating > .form-control,
+  .form-floating > .form-control-plaintext {
+    height: calc(3.5rem + 2px);
+  }
+
+  /* Fix for textarea height */
+  .form-floating > textarea.form-control {
+    height: auto;
+    min-height: 120px;
+  }
+</style>
+
+<script>
+  // Enable Bootstrap form validation
+  (function () {
+    "use strict";
+
+    const forms = document.querySelectorAll(".needs-validation");
+
+    Array.from(forms).forEach((form) => {
+      form.addEventListener(
+        "submit",
+        (event) => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+
+          form.classList.add("was-validated");
+        },
+        false
+      );
+    });
+  })();
+</script>
+{% endblock %}

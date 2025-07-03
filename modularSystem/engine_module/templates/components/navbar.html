@@ -1,0 +1,95 @@
+{% load module_extras %} {%block navbar%}
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'engine_module:module-manager' %}">
+      <i class="fas fa-cubes me-2"></i>
+      <strong>Modular System</strong>
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link {% if request.path == '/' %}active{% endif %}"
+            href="{% url 'engine_module:module-manager' %}"
+          >
+            <i class="fas fa-home"></i> Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link {% if 'modules' in request.path %}active{% endif %}"
+            href="{% url 'engine_module:module-manager' %}"
+          >
+            <i class="fas fa-puzzle-piece"></i> Module Manager
+          </a>
+        </li>
+        {% for module in active_modules %} {% if module %}
+        <li class="nav-item">
+          <a class="nav-link" href="/{{ module.name }}/">
+            <i class="fas fa-box"></i> {{ module.name|format_module_name }}
+          </a>
+        </li>
+        {%endif%} {% endfor %} {% comment %}
+        <li class="nav-item">
+          <a
+            class="nav-link {% if 'products' in request.path %}active{% endif %}"
+            href="{% url 'product_module:product-list' %}"
+          >
+            <i class="fas fa-box"></i> Products
+          </a>
+        </li>
+        {% endcomment %}
+      </ul>
+
+      <ul class="navbar-nav">
+        {% if user.is_authenticated %}
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+          >
+            <i class="fas fa-user-circle me-1"></i> {{ user.username }}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fas fa-user me-2"></i> Profile</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"
+                ><i class="fas fa-cog me-2"></i> Settings</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="{% url 'admin:logout' %}">
+                <i class="fas fa-sign-out-alt me-2"></i> Logout
+              </a>
+            </li>
+          </ul>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'admin:login' %}">
+            <i class="fas fa-sign-in-alt me-1"></i> Login
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
+{%endblock%}

@@ -1,0 +1,103 @@
+{% extends "base.html" %} {% load module_extras %} {% block content %}
+<div class="container">
+  <h1>Module Manager</h1>
+
+  <div class="card mb-4">
+    <div class="card-header">Installed Modules</div>
+    <div class="card-body">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Module</th>
+            <th>Version</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%if installed_modules%}{% for module in installed_modules %}
+          <tr>
+            <td>{{ module.name|format_module_name }}</td>
+            <td>v{{ module.version }}</td>
+            <td>
+              {% if module.is_active %}
+              <span class="badge bg-success">Active</span>
+              {% else %}
+              <span class="badge bg-secondary">Inactive</span>
+              {% endif %}
+            </td>
+            <td>
+              {% if module.is_active %}
+              <form
+                action="{% url 'engine_module:toggle-module' module.name 'upgrade' %}"
+                method="post"
+                style="display: inline"
+              >
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sm btn-warning">
+                  Upgrade
+                </button>
+              </form>
+              <form
+                action="{% url 'engine_module:toggle-module' module.name 'uninstall' %}"
+                method="post"
+                style="display: inline"
+              >
+                {% csrf_token %}
+                <button
+                  type="submit"
+                  class="btn btn-sm btn-danger"
+                  onclick="return confirm('Are you sure? This will disable the module!')"
+                >
+                  Uninstall
+                </button>
+              </form>
+              {% else %}
+              <form
+                action="{% url 'engine_module:toggle-module' module.name 'install' %}"
+                method="post"
+                style="display: inline"
+              >
+                {% csrf_token %}
+                <button
+                  type="submit"
+                  class="btn btn-sm btn-success"
+                  onclick="return confirm('Are you sure? This will disable the module!')"
+                >
+                  Install
+                </button>
+              </form>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %} {%endif%}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Daftar Modul Tersedia -->
+  <div class="card">
+    <div class="card-header">Available Modules</div>
+    <div class="card-body">
+      <div class="row">
+        {% for module in available_modules %}
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ module.display_name }}</h5>
+              <p class="card-text">{{ module.description }}</p>
+              <a
+                href="{% url 'engine_module:toggle-module' module.name 'install' %}"
+                class="btn btn-primary"
+                >Install Module</a
+              >
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

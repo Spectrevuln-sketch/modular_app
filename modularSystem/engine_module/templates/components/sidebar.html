@@ -1,0 +1,68 @@
+{% load module_extras %} {%block sidebar%}
+<div class="col-lg-2 d-none d-lg-block sidebar">
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a
+        class="nav-link {% if request.path == '/' %}active{% endif %}"
+        href="{% url 'engine_module:module-manager' %}"
+      >
+        <i class="fas fa-tachometer-alt"></i> Dashboard
+      </a>
+    </li>
+
+    <li class="nav-item mt-3">
+      <span class="nav-link small text-uppercase text-muted">Modules</span>
+    </li>
+
+    <li class="nav-item">
+      <a
+        class="nav-link {% if 'modules' in request.path %}active{% endif %}"
+        href="{% url 'engine_module:module-manager' %}"
+      >
+        <i class="fas fa-puzzle-piece"></i> Module manager
+      </a>
+    </li>
+
+    {% for module in active_modules %} {% if module %}
+    <li class="nav-item">
+      <a class="nav-link" href="/{{ module.name }}/">
+        <i class="fas fa-puzzle-piece"></i>
+        {{ module.name|format_module_name }}
+      </a>
+    </li>
+    {%endif%}{% endfor %}
+
+    <li class="nav-item mt-3">
+      <span class="nav-link small text-uppercase text-muted">System</span>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'health-check' %}">
+        <i class="fas fa-heartbeat"></i> Health check
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="/admin/" target="_blank">
+        <i class="fas fa-cog"></i> Admin panel
+      </a>
+    </li>
+
+    <li class="nav-item mt-3">
+      <span class="nav-link small text-uppercase text-muted">Resources</span>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <i class="fas fa-book"></i> Documentation
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <i class="fas fa-question-circle"></i> Support
+      </a>
+    </li>
+  </ul>
+</div>
+{%endblock%}
