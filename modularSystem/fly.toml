@@ -1,0 +1,15 @@
+app = "modular-app-gerry"
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  DJANGO_SETTINGS_MODULE = "modularSystem.settings"
+  SECRET_KEY = "5f72bf0bd3c7f7f76467f84ad46ba4f2e1fa2402dfa7fd5a6ab1f313f6631719"  # Generate dengan: openssl rand -hex 32
+  DEBUG = "0"
+  ALLOWED_HOSTS = "modular-app-gerry.fly.dev"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = false

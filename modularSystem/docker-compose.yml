@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:15
+    container_name: modular_db
+    environment:
+      POSTGRES_DB: modular_db
+      POSTGRES_USER: modular_user
+      POSTGRES_PASSWORD: passwordkuat123
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U modular_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build: .
+    container_name: modular_web
+    command: gunicorn --bind 0.0.0.0:8000 modularSystem.wsgi:application
+    volumes:
+      - .:/app
+      - static_volume:/app/static
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  static_volume:

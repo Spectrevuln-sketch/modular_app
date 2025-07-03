@@ -1,0 +1,878 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "importlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib",
+        "description": "importlib",
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "import_module",
+        "importPath": "importlib",
+        "description": "importlib",
+        "isExtraImport": true,
+        "detail": "importlib",
+        "documentation": {}
+    },
+    {
+        "label": "call_command",
+        "importPath": "django.core.management",
+        "description": "django.core.management",
+        "isExtraImport": true,
+        "detail": "django.core.management",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "django.views.decorators.http",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "require_POST",
+        "importPath": "django.views.decorators.http",
+        "description": "django.views.decorators.http",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.http",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Group",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContentType",
+        "importPath": "django.contrib.contenttypes.models",
+        "description": "django.contrib.contenttypes.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.models",
+        "documentation": {}
+    },
+    {
+        "label": "permission_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "engine_module.migrations.0001_initial",
+        "description": "engine_module.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='InstalledModule',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, unique=True)),",
+        "detail": "engine_module.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "format_module_name",
+        "kind": 2,
+        "importPath": "engine_module.templatetags.module_extras",
+        "description": "engine_module.templatetags.module_extras",
+        "peekOfCode": "def format_module_name(value):\n    return value.replace('_', ' ').capitalize()",
+        "detail": "engine_module.templatetags.module_extras",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "engine_module.templatetags.module_extras",
+        "description": "engine_module.templatetags.module_extras",
+        "peekOfCode": "register = template.Library()\n@register.filter\ndef format_module_name(value):\n    return value.replace('_', ' ').capitalize()",
+        "detail": "engine_module.templatetags.module_extras",
+        "documentation": {}
+    },
+    {
+        "label": "EngineModularConfig",
+        "kind": 6,
+        "importPath": "engine_module.apps",
+        "description": "engine_module.apps",
+        "peekOfCode": "class EngineModularConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'engine_module'\n    verbose_name = 'Modular Engine'\n    def ready(self):\n       from modules.module_discovery import discover_modules\n       discover_modules()\n       from .module_loader import discover_and_register_modules\n       discover_and_register_modules()",
+        "detail": "engine_module.apps",
+        "documentation": {}
+    },
+    {
+        "label": "active_modules",
+        "kind": 2,
+        "importPath": "engine_module.context_processors",
+        "description": "engine_module.context_processors",
+        "peekOfCode": "def active_modules(request):\n    return {\n        'active_modules': InstalledModule.objects.filter(is_active=True)\n    }",
+        "detail": "engine_module.context_processors",
+        "documentation": {}
+    },
+    {
+        "label": "ModuleAccessMiddleware",
+        "kind": 6,
+        "importPath": "engine_module.middleware",
+        "description": "engine_module.middleware",
+        "peekOfCode": "class ModuleAccessMiddleware:\n    def __init__(self, get_response):\n        self.get_response = get_response\n    def __call__(self, request):\n        response = self.get_response(request)\n        return response\n    def process_view(self, request, view_func, view_args, view_kwargs):\n        if request.path.startswith('/products/'):\n            try:\n                module = InstalledModule.objects.get(name='product_module')",
+        "detail": "engine_module.middleware",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "kind": 6,
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "peekOfCode": "class InstalledModule(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    version = models.PositiveIntegerField(default=1)\n    is_active = models.BooleanField(default=True)\n    installed_at = models.DateTimeField(auto_now_add=True)\n    last_updated = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return f\"{self.name} v{self.version}\"",
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "discover_and_register_modules",
+        "kind": 2,
+        "importPath": "engine_module.module_loader",
+        "description": "engine_module.module_loader",
+        "peekOfCode": "def discover_and_register_modules():\n    modules_dir = os.path.join(settings.BASE_DIR, 'modules')\n    current_module_names = set()\n    for module_name in os.listdir(modules_dir):\n        module_path = os.path.join(modules_dir, module_name)\n        if (\n            os.path.isdir(module_path)\n            and os.path.exists(os.path.join(module_path, 'apps.py'))\n        ):\n            full_module_path = f'modules.{module_name}'",
+        "detail": "engine_module.module_loader",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "engine_module.urls",
+        "description": "engine_module.urls",
+        "peekOfCode": "app_name = 'engine_module'\nurlpatterns = [\n    path('', views.module_manager, name='module-manager'),\n    path('<str:module_name>/<str:action>/', views.toggle_module, name='toggle-module'),\n]",
+        "detail": "engine_module.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "engine_module.urls",
+        "description": "engine_module.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.module_manager, name='module-manager'),\n    path('<str:module_name>/<str:action>/', views.toggle_module, name='toggle-module'),\n]",
+        "detail": "engine_module.urls",
+        "documentation": {}
+    },
+    {
+        "label": "module_manager",
+        "kind": 2,
+        "importPath": "engine_module.views",
+        "description": "engine_module.views",
+        "peekOfCode": "def module_manager(request):\n    installed_modules = InstalledModule.objects.all()\n    available_modules = []\n    for app in settings.INSTALLED_APPS:\n        if app.startswith('modules.'):\n            module_name = app.split('.')[-1]\n            try:\n                mod = import_module(f\"{app}.app_config\")\n                module_config = getattr(mod, 'ModuleConfig', None)\n                if module_config:",
+        "detail": "engine_module.views",
+        "documentation": {}
+    },
+    {
+        "label": "toggle_module",
+        "kind": 2,
+        "importPath": "engine_module.views",
+        "description": "engine_module.views",
+        "peekOfCode": "def toggle_module(request, module_name, action):\n    print(f\"Toggle module: {module_name}, action: {action}\")\n    try:\n        module = InstalledModule.objects.get(name=module_name)\n        if action == 'install' and not module.is_active:\n            from django.core.management import call_command\n            call_command('migrate', f\"{module_name}\")\n            module.is_active = True\n            module.save()\n            messages.success(request, f\"Module {module_name} installed successfully!\")",
+        "detail": "engine_module.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "modularSystem.asgi",
+        "description": "modularSystem.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "modularSystem.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'engine_module',",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'engine_module',\n    'modules.product_module',\n]",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'engine_module.middleware.ModuleAccessMiddleware',\n]",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "ROOT_URLCONF = 'modularSystem.urls'\n# MODULES_DIR = BASE_DIR / 'modules'\nMODULES_DIR = os.path.join(BASE_DIR, 'modules')\nfor name in os.listdir(MODULES_DIR):\n    module_path = os.path.join(MODULES_DIR, name)\n    apps_file = os.path.join(module_path, 'apps.py')\n    if os.path.isdir(module_path) and os.path.exists(apps_file):\n        full_module_path = f'modules.{name}'\n        if full_module_path not in INSTALLED_APPS:\n            INSTALLED_APPS.append(full_module_path)",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MODULES_DIR",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "MODULES_DIR = os.path.join(BASE_DIR, 'modules')\nfor name in os.listdir(MODULES_DIR):\n    module_path = os.path.join(MODULES_DIR, name)\n    apps_file = os.path.join(module_path, 'apps.py')\n    if os.path.isdir(module_path) and os.path.exists(apps_file):\n        full_module_path = f'modules.{name}'\n        if full_module_path not in INSTALLED_APPS:\n            INSTALLED_APPS.append(full_module_path)\nLOGIN_REDIRECT_URL = '/'\nTEMPLATES = [",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'modularSystem.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'modular_db',\n        'USER': 'openpg',\n        'PASSWORD': 'lu7nX34ug3',\n        'HOST': 'localhost',",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'modular_db',\n        'USER': 'openpg',\n        'PASSWORD': 'lu7nX34ug3',\n        'HOST': 'localhost',\n        'PORT': '5444',\n    }\n}",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "modularSystem.settings",
+        "description": "modularSystem.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "modularSystem.urls",
+        "description": "modularSystem.urls",
+        "peekOfCode": "def health_check(request):\n    return JsonResponse({\n        'status': 'ok',\n        'message': \"Health check successful\",\n        'services': {\n            'database': 'connected',\n            'cache': 'active'\n        }\n    })\nurlpatterns = [",
+        "detail": "modularSystem.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "modularSystem.urls",
+        "description": "modularSystem.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', health_check, name='health-check'),\n    path('admin/', admin.site.urls),\n    path('accounts/', include('django.contrib.auth.urls')),\n    path('modules/', include('engine_module.urls')),\n]\nfor mod in Module.objects.filter(is_active=True):\n    try:\n        urlpatterns.append(\n            path(f\"{mod.name}/\", include(f\"modules.{mod.name}.urls\"))",
+        "detail": "modularSystem.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "modularSystem.wsgi",
+        "description": "modularSystem.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "modularSystem.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "modules.product_module.migrations.0001_initial",
+        "description": "modules.product_module.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "modules.product_module.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModuleConfig",
+        "kind": 6,
+        "importPath": "modules.product_module.apps",
+        "description": "modules.product_module.apps",
+        "peekOfCode": "class ProductModuleConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'modules.product_module'\n    verbose_name = 'Product Management Module'\n    def ready(self):\n        try:\n            from . import permissions\n            permissions.setup_permissions()\n        except ImportError:\n            pass",
+        "detail": "modules.product_module.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ProductForm",
+        "kind": 6,
+        "importPath": "modules.product_module.forms",
+        "description": "modules.product_module.forms",
+        "peekOfCode": "class ProductForm(forms.ModelForm):\n    class Meta:\n        model = Product\n        fields = ['name', 'barcode', 'price', 'stock']\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        for field in self.fields.values():\n            field.widget.attrs.update({\n                'class': 'form-control',\n                'placeholder': field.label,",
+        "detail": "modules.product_module.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "modules.product_module.models",
+        "description": "modules.product_module.models",
+        "peekOfCode": "class Product(models.Model):\n    name = models.CharField(max_length=100)\n    barcode = models.CharField(max_length=50, unique=True)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    stock = models.PositiveIntegerField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def clean(self):\n        if self.stock is None:\n            raise ValidationError({'stock': 'Stock quantity is required.'})",
+        "detail": "modules.product_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "setup_permissions",
+        "kind": 2,
+        "importPath": "modules.product_module.permission",
+        "description": "modules.product_module.permission",
+        "peekOfCode": "def setup_permissions():\n    try:\n        content_type = ContentType.objects.get_for_model(Product)\n        manager_group, _ = Group.objects.get_or_create(name='manager')\n        user_group, _ = Group.objects.get_or_create(name='user')\n        public_group, _ = Group.objects.get_or_create(name='public')\n    except Exeption as e:\n        print(f\"Error setting permission in product module: \\n {e}\")\n    manager_perms = [\n        Permission.objects.get_or_create(",
+        "detail": "modules.product_module.permission",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "modules.product_module.urls",
+        "description": "modules.product_module.urls",
+        "peekOfCode": "app_name = 'product_module'\nurlpatterns = [\n    path('',        views.product_list,   name='product-list'),\n    path('create/', views.product_create, name='product-create'),\n    path('delete/<int:pk>/', views.product_delete, name='product-delete'),\n    path('update/<int:pk>/', views.product_update, name='product-update'),\n]",
+        "detail": "modules.product_module.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "modules.product_module.urls",
+        "description": "modules.product_module.urls",
+        "peekOfCode": "urlpatterns = [\n    path('',        views.product_list,   name='product-list'),\n    path('create/', views.product_create, name='product-create'),\n    path('delete/<int:pk>/', views.product_delete, name='product-delete'),\n    path('update/<int:pk>/', views.product_update, name='product-update'),\n]",
+        "detail": "modules.product_module.urls",
+        "documentation": {}
+    },
+    {
+        "label": "product_list",
+        "kind": 2,
+        "importPath": "modules.product_module.views",
+        "description": "modules.product_module.views",
+        "peekOfCode": "def product_list(request):\n    # Module check\n    app_label = request.resolver_match.app_name\n    print(f\"App label: {app_label}\")\n    if not Module.objects.filter(name=app_label, is_active=True).exists():\n        raise Http404(\"Module not installed\")\n    products = Product.objects.all()\n    return render(request, 'product_list.html', {'products': products})\n@permission_required('product_module.add_product', raise_exception=True)\ndef product_create(request):",
+        "detail": "modules.product_module.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_create",
+        "kind": 2,
+        "importPath": "modules.product_module.views",
+        "description": "modules.product_module.views",
+        "peekOfCode": "def product_create(request):\n    if request.method == 'POST':\n        form = ProductForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('product_module:product-list')\n    else:\n        form = ProductForm()\n    return render(request, 'product_form.html', {\n        'form': form,",
+        "detail": "modules.product_module.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_update",
+        "kind": 2,
+        "importPath": "modules.product_module.views",
+        "description": "modules.product_module.views",
+        "peekOfCode": "def product_update(request, pk):\n    product = get_object_or_404(Product, pk=pk)\n    if request.method == 'POST':\n        form = ProductForm(request.POST, instance=product)\n        if form.is_valid():\n            form.save()\n            return redirect('product_module:product-list')\n    else:\n        form = ProductForm(instance=product)\n    return render(request, 'product_form.html', {",
+        "detail": "modules.product_module.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_delete",
+        "kind": 2,
+        "importPath": "modules.product_module.views",
+        "description": "modules.product_module.views",
+        "peekOfCode": "def product_delete(request, pk):\n    if request.method == 'POST' and request.headers.get('x-requested-with') == 'XMLHttpRequest':\n        try:\n            product = Product.objects.get(pk=pk)\n            product.delete()\n            return JsonResponse({'success': True})\n        except Product.DoesNotExist:\n            return JsonResponse({'success': False, 'error': 'Product not found'})\n    return JsonResponse({'success': False, 'error': 'Invalid request'}, status=400)",
+        "detail": "modules.product_module.views",
+        "documentation": {}
+    },
+    {
+        "label": "discover_modules",
+        "kind": 2,
+        "importPath": "modules.module_discovery",
+        "description": "modules.module_discovery",
+        "peekOfCode": "def discover_modules():\n    modules_dir = os.path.join(settings.BASE_DIR, 'modules')\n    for module_name in os.listdir(modules_dir):\n        module_path = os.path.join(modules_dir, module_name)\n        if (\n            os.path.isdir(module_path)\n            and os.path.exists(os.path.join(module_path, 'apps.py'))\n            and module_name not in settings.INSTALLED_APPS\n        ):\n            if not InstalledModule.objects.filter(name=module_name).exists():",
+        "detail": "modules.module_discovery",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'modularSystem.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
