@@ -1,5 +1,77 @@
 [
     {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "discover_and_register_modules",
+        "importPath": "engine_module.module_loader",
+        "description": "engine_module.module_loader",
+        "isExtraImport": true,
+        "detail": "engine_module.module_loader",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "OperationalError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "connection",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -24,7 +96,7 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
+        "label": "connection",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -32,15 +104,7 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
+        "label": "OperationalError",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -96,132 +160,101 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "InstalledModule",
+        "importPath": "engine_module.models",
+        "description": "engine_module.models",
+        "isExtraImport": true,
+        "detail": "engine_module.models",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "Http404",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
         "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "InstalledModule",
-        "importPath": "engine_module.models",
-        "description": "engine_module.models",
-        "isExtraImport": true,
-        "detail": "engine_module.models",
-        "documentation": {}
-    },
-    {
-        "label": "InstalledModule",
-        "importPath": "engine_module.models",
-        "description": "engine_module.models",
-        "isExtraImport": true,
-        "detail": "engine_module.models",
-        "documentation": {}
-    },
-    {
-        "label": "InstalledModule",
-        "importPath": "engine_module.models",
-        "description": "engine_module.models",
-        "isExtraImport": true,
-        "detail": "engine_module.models",
-        "documentation": {}
-    },
-    {
-        "label": "InstalledModule",
-        "importPath": "engine_module.models",
-        "description": "engine_module.models",
-        "isExtraImport": true,
-        "detail": "engine_module.models",
-        "documentation": {}
-    },
-    {
-        "label": "InstalledModule",
-        "importPath": "engine_module.models",
-        "description": "engine_module.models",
-        "isExtraImport": true,
-        "detail": "engine_module.models",
-        "documentation": {}
-    },
-    {
-        "label": "Http404",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "JsonResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "JsonResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "Http404",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -242,11 +275,52 @@
         "documentation": {}
     },
     {
-        "label": "call_command",
-        "importPath": "django.core.management",
-        "description": "django.core.management",
+        "label": "time",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.core.management",
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "ConnectionHandler",
+        "importPath": "django.db.utils",
+        "description": "django.db.utils",
+        "isExtraImport": true,
+        "detail": "django.db.utils",
         "documentation": {}
     },
     {
@@ -387,11 +461,36 @@
         "documentation": {}
     },
     {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "WhiteNoise",
+        "importPath": "whitenoise",
+        "description": "whitenoise",
+        "isExtraImport": true,
+        "detail": "whitenoise",
         "documentation": {}
     },
     {
@@ -435,12 +534,21 @@
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "multiprocessing",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "modularSystem.engine_module.management.commands.init_app",
+        "description": "modularSystem.engine_module.management.commands.init_app",
+        "peekOfCode": "class Command(BaseCommand):\n    help = 'Initialize application modules'\n    def handle(self, *args, **options):\n        discover_and_register_modules()\n        self.stdout.write(self.style.SUCCESS(\"Application modules initialized\"))",
+        "detail": "modularSystem.engine_module.management.commands.init_app",
         "documentation": {}
     },
     {
@@ -475,7 +583,7 @@
         "kind": 6,
         "importPath": "modularSystem.engine_module.apps",
         "description": "modularSystem.engine_module.apps",
-        "peekOfCode": "class EngineModularConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'engine_module'\n    verbose_name = 'Modular Engine'\n    def ready(self):\n       from modules.module_discovery import discover_modules\n       discover_modules()\n       from .module_loader import discover_and_register_modules\n       discover_and_register_modules()",
+        "peekOfCode": "class EngineModularConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'engine_module'\n    verbose_name = 'Modular Engine'\n    def ready(self):\n        runtime_commands = ['runserver', 'uwsgi', 'gunicorn']\n        if any(cmd in sys.argv for cmd in runtime_commands):\n            print(\"Initializing module discovery...\")\n            try:\n                from .module_loader import discover_and_register_modules",
         "detail": "modularSystem.engine_module.apps",
         "documentation": {}
     },
@@ -511,7 +619,16 @@
         "kind": 2,
         "importPath": "modularSystem.engine_module.module_loader",
         "description": "modularSystem.engine_module.module_loader",
-        "peekOfCode": "def discover_and_register_modules():\n    modules_dir = os.path.join(settings.BASE_DIR, 'modules')\n    current_module_names = set()\n    for module_name in os.listdir(modules_dir):\n        module_path = os.path.join(modules_dir, module_name)\n        if (\n            os.path.isdir(module_path)\n            and os.path.exists(os.path.join(module_path, 'apps.py'))\n        ):\n            full_module_path = f'modules.{module_name}'",
+        "peekOfCode": "def discover_and_register_modules():\n    global DISCOVERY_DONE\n    if DISCOVERY_DONE:\n        return\n    DISCOVERY_DONE = True\n    if 'collectstatic' in sys.argv:\n        print(\"Skipping module discovery during collectstatic\")\n        return\n    max_retries = 5\n    retry_delay = 2",
+        "detail": "modularSystem.engine_module.module_loader",
+        "documentation": {}
+    },
+    {
+        "label": "DISCOVERY_DONE",
+        "kind": 5,
+        "importPath": "modularSystem.engine_module.module_loader",
+        "description": "modularSystem.engine_module.module_loader",
+        "peekOfCode": "DISCOVERY_DONE = False\ndef discover_and_register_modules():\n    global DISCOVERY_DONE\n    if DISCOVERY_DONE:\n        return\n    DISCOVERY_DONE = True\n    if 'collectstatic' in sys.argv:\n        print(\"Skipping module discovery during collectstatic\")\n        return\n    max_retries = 5",
         "detail": "modularSystem.engine_module.module_loader",
         "documentation": {}
     },
@@ -565,7 +682,43 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\nSTATIC_URL = '/static/'\nSTATIC_ROOT = '/app/staticfiles'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!",
+        "detail": "modularSystem.modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.settings",
+        "description": "modularSystem.modularSystem.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATIC_ROOT = '/app/staticfiles'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i')",
+        "detail": "modularSystem.modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.settings",
+        "description": "modularSystem.modularSystem.settings",
+        "peekOfCode": "STATIC_ROOT = '/app/staticfiles'\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i')\n# SECURITY WARNING: don't run with debug turned on in production!",
+        "detail": "modularSystem.modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.settings",
+        "description": "modularSystem.modularSystem.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.getenv('DEBUG', True)",
+        "detail": "modularSystem.modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.settings",
+        "description": "modularSystem.modularSystem.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.getenv('DEBUG', True)\nALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = [\n    'https://modular.akatechvision.my.id',",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -574,7 +727,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-mq#_^nb408!gtlh(pizmoafz$^aun@dq-#tw*0zphz_b$je$_i')\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = os.getenv('DEBUG', True)\nALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = [\n    'https://modular.akatechvision.my.id',\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -583,7 +736,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = os.getenv('DEBUG', True)\nALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = [\n    'https://modular.akatechvision.my.id',\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -592,7 +745,16 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'engine_module',",
+        "peekOfCode": "ALLOWED_HOSTS = [\"*\"]\nCSRF_TRUSTED_ORIGINS = [\n    'https://modular.akatechvision.my.id',\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "modularSystem.modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.settings",
+        "description": "modularSystem.modularSystem.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    'https://modular.akatechvision.my.id',\n]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -610,7 +772,16 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'engine_module.middleware.ModuleAccessMiddleware',\n]",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'whitenoise.middleware.WhiteNoiseMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'engine_module.middleware.ModuleAccessMiddleware',",
+        "detail": "modularSystem.modularSystem.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.settings",
+        "description": "modularSystem.modularSystem.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'\nROOT_URLCONF = 'modularSystem.urls'\n# MODULES_DIR = BASE_DIR / 'modules'\nMODULES_DIR = os.path.join(BASE_DIR, 'modules')\nfor name in os.listdir(MODULES_DIR):\n    module_path = os.path.join(MODULES_DIR, name)\n    apps_file = os.path.join(module_path, 'apps.py')\n    if os.path.isdir(module_path) and os.path.exists(apps_file):\n        full_module_path = f'modules.{name}'\n        if full_module_path not in INSTALLED_APPS:",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -637,7 +808,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        # 'DIRS': [BASE_DIR / 'templates'],\n        'DIRS': [ os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -646,7 +817,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        # 'DIRS': [BASE_DIR / 'templates'],\n        'DIRS': [ os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -655,7 +826,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'modularSystem.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'modular_db',\n        'USER': 'openpg',\n        'PASSWORD': 'lu7nX34ug3',\n        'HOST': 'localhost',",
+        "peekOfCode": "WSGI_APPLICATION = 'modularSystem.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': os.environ.get('DB_ENGINE'),\n        'NAME': os.environ.get('DB_NAME'),\n        'USER': os.environ.get('DB_USER'),\n        'PASSWORD': os.environ.get('DB_PASSWORD'),\n        'HOST': os.environ.get('DB_HOST'),",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -664,7 +835,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.settings",
         "description": "modularSystem.modularSystem.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'modular_db',\n        'USER': 'openpg',\n        'PASSWORD': 'lu7nX34ug3',\n        'HOST': 'localhost',\n        'PORT': '5444',\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': os.environ.get('DB_ENGINE'),\n        'NAME': os.environ.get('DB_NAME'),\n        'USER': os.environ.get('DB_USER'),\n        'PASSWORD': os.environ.get('DB_PASSWORD'),\n        'HOST': os.environ.get('DB_HOST'),\n        'PORT': os.environ.get('DB_PORT'),\n    }\n}",
         "detail": "modularSystem.modularSystem.settings",
         "documentation": {}
     },
@@ -741,12 +912,30 @@
         "documentation": {}
     },
     {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.urls",
+        "description": "modularSystem.modularSystem.urls",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef health_check(request):\n    return JsonResponse({\n        'status': 'ok',\n        'message': \"Health check successful\",\n        'services': {\n            'database': 'connected',\n            'cache': 'active'\n        }\n    })",
+        "detail": "modularSystem.modularSystem.urls",
+        "documentation": {}
+    },
+    {
         "label": "urlpatterns",
         "kind": 5,
         "importPath": "modularSystem.modularSystem.urls",
         "description": "modularSystem.modularSystem.urls",
-        "peekOfCode": "urlpatterns = [\n    path('', health_check, name='health-check'),\n    path('admin/', admin.site.urls),\n    path('accounts/', include('django.contrib.auth.urls')),\n    path('modules/', include('engine_module.urls')),\n]\nfor mod in Module.objects.filter(is_active=True):\n    try:\n        urlpatterns.append(\n            path(f\"{mod.name}/\", include(f\"modules.{mod.name}.urls\"))",
+        "peekOfCode": "urlpatterns = [\n    path('', health_check, name='health-check'),\n    path(\n        'admin/logout/',\n        LogoutView.as_view(\n            next_page='/admin/login/?logged_out=1'\n        ),\n        name='admin_logout'\n    ),\n    path('admin/', admin.site.urls),",
         "detail": "modularSystem.modularSystem.urls",
+        "documentation": {}
+    },
+    {
+        "label": "django_app",
+        "kind": 5,
+        "importPath": "modularSystem.modularSystem.wsgi",
+        "description": "modularSystem.modularSystem.wsgi",
+        "peekOfCode": "django_app = get_wsgi_application()\napplication = WhiteNoise(\n    django_app,\n    root=os.environ.get('STATIC_ROOT', '/app/staticfiles'),\n    prefix=os.environ.get('STATIC_URL', '/static/')\n)\ntry:\n    from modules.module_discovery import discover_modules\n    from engine_module.module_loader import discover_and_register_modules\n    discover_modules()",
+        "detail": "modularSystem.modularSystem.wsgi",
         "documentation": {}
     },
     {
@@ -754,7 +943,7 @@
         "kind": 5,
         "importPath": "modularSystem.modularSystem.wsgi",
         "description": "modularSystem.modularSystem.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
+        "peekOfCode": "application = WhiteNoise(\n    django_app,\n    root=os.environ.get('STATIC_ROOT', '/app/staticfiles'),\n    prefix=os.environ.get('STATIC_URL', '/static/')\n)\ntry:\n    from modules.module_discovery import discover_modules\n    from engine_module.module_loader import discover_and_register_modules\n    discover_modules()\n    discover_and_register_modules()",
         "detail": "modularSystem.modularSystem.wsgi",
         "documentation": {}
     },
@@ -862,8 +1051,44 @@
         "kind": 2,
         "importPath": "modularSystem.modules.module_discovery",
         "description": "modularSystem.modules.module_discovery",
-        "peekOfCode": "def discover_modules():\n    modules_dir = os.path.join(settings.BASE_DIR, 'modules')\n    for module_name in os.listdir(modules_dir):\n        module_path = os.path.join(modules_dir, module_name)\n        if (\n            os.path.isdir(module_path)\n            and os.path.exists(os.path.join(module_path, 'apps.py'))\n            and module_name not in settings.INSTALLED_APPS\n        ):\n            if not InstalledModule.objects.filter(name=module_name).exists():",
+        "peekOfCode": "def discover_modules():\n    if 'collectstatic' in sys.argv:\n        return\n    modules_dir = os.path.join(settings.BASE_DIR, 'modules')\n    try:\n        if not connection.introspection.table_names():\n            return\n        for module_name in os.listdir(modules_dir):\n            module_path = os.path.join(modules_dir, module_name)\n            if (",
         "detail": "modularSystem.modules.module_discovery",
+        "documentation": {}
+    },
+    {
+        "label": "bind",
+        "kind": 5,
+        "importPath": "modularSystem.gunicorn.conf",
+        "description": "modularSystem.gunicorn.conf",
+        "peekOfCode": "bind = \"0.0.0.0:8000\"\nworkers = multiprocessing.cpu_count() * 2 + 1\ntimeout = 300\nkeepalive = 5",
+        "detail": "modularSystem.gunicorn.conf",
+        "documentation": {}
+    },
+    {
+        "label": "workers",
+        "kind": 5,
+        "importPath": "modularSystem.gunicorn.conf",
+        "description": "modularSystem.gunicorn.conf",
+        "peekOfCode": "workers = multiprocessing.cpu_count() * 2 + 1\ntimeout = 300\nkeepalive = 5",
+        "detail": "modularSystem.gunicorn.conf",
+        "documentation": {}
+    },
+    {
+        "label": "timeout",
+        "kind": 5,
+        "importPath": "modularSystem.gunicorn.conf",
+        "description": "modularSystem.gunicorn.conf",
+        "peekOfCode": "timeout = 300\nkeepalive = 5",
+        "detail": "modularSystem.gunicorn.conf",
+        "documentation": {}
+    },
+    {
+        "label": "keepalive",
+        "kind": 5,
+        "importPath": "modularSystem.gunicorn.conf",
+        "description": "modularSystem.gunicorn.conf",
+        "peekOfCode": "keepalive = 5",
+        "detail": "modularSystem.gunicorn.conf",
         "documentation": {}
     },
     {

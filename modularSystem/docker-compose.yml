@@ -2,37 +2,43 @@ version: "3.8"
 
 services:
   db:
-    image: postgres:15
-    container_name: modular_db
-    environment:
-      POSTGRES_DB: modular_db
-      POSTGRES_USER: modular_user
-      POSTGRES_PASSWORD: passwordkuat123
+    image: postgres:15-alpine3.20
+    container_name: postgres15
+    restart: always
+    ports:
+      - "5444:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U modular_user"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
+    environment:
+      - POSTGRES_DB=modular_db
+      - POSTGRES_USER=openpg
+      - POSTGRES_PASSWORD=lu7nX34ug3
+    networks:
+      - cloudflare_networks
 
   web:
     build: .
     container_name: modular_web
-    command: gunicorn --bind 0.0.0.0:8000 modularSystem.wsgi:application
+    restart: always
+    command: >
+      sh -c "
+      python manage.py migrate --noinput &&
+      gunicorn modularSystem.wsgi:application --bind 0.0.0.0:8000
+      "
     volumes:
       - .:/app
-      - static_volume:/app/static
     env_file:
       - .env
     ports:
       - "8000:8000"
     depends_on:
-      db:
-        condition: service_healthy
+      - db
+    networks:
+      - cloudflare_networks
 
 volumes:
   postgres_data:
   static_volume:
+networks:
+  cloudflare_networks:
+    external: true
